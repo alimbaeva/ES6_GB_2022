@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "server": "browser-sunc start -s \"src\" --files \"src\"",
+    "build": "node_modules/.bin/webpack --mode development ./src/index.js --output ./src/build.js"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "imports": "^1.0.0",
+    "loader": "^2.1.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
